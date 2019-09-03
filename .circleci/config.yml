@@ -44,7 +44,7 @@ jobs:
         paths:
           - build
 
- deploy:
+  deploy:
     docker:
       - image: buildpack-deps:trusty
 
@@ -61,8 +61,8 @@ jobs:
             echo '{"root":"."}' > static.json
             ls
             git init
-            git config --global user.email "deploy@codesanook.com"
-            git config --global user.name "CircleCI Deploy"
+            git config --global user.email "dream07312@gmail.com"
+            git config --global user.name "dream07312"
             git add -A
 
       - run:
