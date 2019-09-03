@@ -17,9 +17,7 @@ const App: React.FC = () => {
     `);
 
     setName("");
-
     setEmail("");
-
     setMessage("");
   }
 
